@@ -1,0 +1,6 @@
+beautifulsoup4
+cloudscraper
+requests
+lxml
+extruct
+w3lib
