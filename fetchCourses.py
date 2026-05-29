@@ -1,14 +1,14 @@
 import cloudscraper
 from bs4 import BeautifulSoup
 
-class DescFetcher:
+class CoursesFetcher:
 
     def __init__(self,url):
         self.url = url
 
-    def fetchDesc(self):
-        text = ""
-        
+    def fetchCourses(self):
+        courses = []
+
         scraper = cloudscraper.create_scraper(
             browser = {
                 "browser" : "chrome",
@@ -30,14 +30,11 @@ class DescFetcher:
             html,
             "lxml"
         )
-        soupDesc = soup.find("div",class_="card-content")
+        soupCourses = soup.find_all("span", class_="pgmname")
 
-        if soupDesc:
-            text = soupDesc.get_text()
+        # soupCourses = soup.find("a", href="javascript:void(0)")
 
-       
+        for i , course in enumerate(soupCourses):
+            courses.insert(i,course.get_text())
 
-        return text
-
-
-        
+        return courses

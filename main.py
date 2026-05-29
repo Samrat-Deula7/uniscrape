@@ -2,6 +2,7 @@ import json
 
 from fetchUniLinks import LinkFetcher
 from fetchDesc import DescFetcher
+from fetchCourses import CoursesFetcher
 
 URL = (
     "https://www.topuniversities.com/"
@@ -26,12 +27,23 @@ def main():
         fetchUniDesc = DescFetcher(soup)
 
         descData = fetchUniDesc.fetchDesc()
+
+        fetchUniCourses = CoursesFetcher(soup)
+
+        CoursesData = fetchUniCourses.fetchCourses()
         print("\n")
         print("############### URL ##################")
         print(soup)
         print("\n")
         print("############### Description ##################")
         print(descData)
+        print("############### Courses ##################")
+        for course in CoursesData:
+            print(course)
+
+        
+
+
 
 
 main()
