@@ -1,8 +1,8 @@
 import json
 
 from fetcher import PageFetcher
+from fetchUniLinks import LinkFetcher
 from parser import UniversityParser
-
 
 URL = (
     "https://www.topuniversities.com/"
@@ -10,8 +10,18 @@ URL = (
     "massachusetts-institute-technology-mit"
 )
 
+topUniLinks = "https://www.topuniversities.com/world-university-rankings"
+
 
 def main():
+
+    fetchUniLinks = LinkFetcher(topUniLinks)
+
+    soups = fetchUniLinks.fetch()
+
+    print("*************************")
+    print(soups)
+    print("*************************")
 
     fetcher = PageFetcher(URL)
 
