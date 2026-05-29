@@ -34,7 +34,7 @@ class LinkFetcher:
         soups = soup.find_all("a",class_="uni-link")
 
         for i, soup in enumerate(soups):
-            links.insert(i,":https://www.topuniversities.com"+soup["href"])
+            links.insert(i,"https://www.topuniversities.com"+soup["href"])
 
         
         return links
