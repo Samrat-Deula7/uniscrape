@@ -4,3 +4,4 @@ requests
 lxml
 extruct
 w3lib
+pandas

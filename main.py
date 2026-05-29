@@ -4,6 +4,7 @@ from fetchUniLinks import LinkFetcher
 from fetchDesc import DescFetcher
 from fetchCourses import CoursesFetcher
 from fetchLogo import LogoFetcher
+import pandas as pd
 
 URL = (
     "https://www.topuniversities.com/"
@@ -15,43 +16,62 @@ topUniLinks = "https://www.topuniversities.com/world-university-rankings"
 
 
 def main():
+    logo = []
+    url = []
+    desc = []
+    courses = []
 
-    fetchUniLinks = LinkFetcher(topUniLinks)
+    data = {
+        "Logo" : logo,
+        "URL" : url,
+        "DESC" : desc,
+        "Courses" : courses
+    }
 
-    soups = fetchUniLinks.fetch()
+    try:     
 
-    print("*************************")
-    print(soups)
-    print("*************************")
+        fetchUniLinks = LinkFetcher(topUniLinks)
 
-    for soup in soups:
-        fetchUniDesc = DescFetcher(soup)
+        soups = fetchUniLinks.fetch()
 
-        descData = fetchUniDesc.fetchDesc()
+        print("*************************")
+        print(soups)
+        print("*************************")
 
-        fetchUniCourses = CoursesFetcher(soup)
+        for i, soup in enumerate(soups):
+            fetchUniDesc = DescFetcher(soup)
 
-        CoursesData = fetchUniCourses.fetchCourses()
+            descData = fetchUniDesc.fetchDesc()
 
-        fetchUniLogo = LogoFetcher(soup)
+            fetchUniCourses = CoursesFetcher(soup)
 
-        LogoData = fetchUniLogo.fetchLogo()
+            CoursesData = fetchUniCourses.fetchCourses()
 
-        print("\n")
-        print("################ LOGO ###################")
-        print(LogoData)
-        print("\n")
-        print("############### URL ##################")
-        print(soup)
-        print("\n")
-        print("############### Description ##################")
-        print(descData)
-        print("\n")
-        print("############### Courses ##################")
-        for course in CoursesData:
-            print(course)
+            fetchUniLogo = LogoFetcher(soup)
+
+            LogoData = fetchUniLogo.fetchLogo()
+
+            print("\n")
+            print("################ LOGO ###################")
+            print(LogoData)
+            logo.insert(i,LogoData)
+            print("\n")
+            print("############### URL ##################")
+            print(soup)
+            url.insert(i,soup)
+            print("\n")
+            print("############### Description ##################")
+            print(descData)
+            desc.insert(i,descData)
+            print("\n")
+            print("############### Courses ##################")
+            print(CoursesData)
+            courses.insert(i,CoursesData)
+    
+    finally:
+        df = pd.DataFrame(data)
+
+        df.to_json("UniData.json",orient="records",indent=4)
         
-
-
 
 main()
