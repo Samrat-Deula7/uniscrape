@@ -37,8 +37,6 @@ class LinkFetcher:
             links.insert(i,":https://www.topuniversities.com"+soup["href"])
 
         
-        
-
         return links
         
         driver.quit()
