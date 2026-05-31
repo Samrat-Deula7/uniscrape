@@ -5,6 +5,14 @@
         "DESC":"\nAbout Massachusetts Institute of Technology (MIT)\n\n\u201cMind and Hand\u201d is the thought-provoking motto of the Massachusetts Institute of Technology, known also as MIT. This motto enigmatically encapsulates this famous institution\u2019s mission to advance knowledge in science, technology and areas of scholarship that can help to make the world a better place.\u00a0\nAt its founding in 1861, MIT was initially a small community of problem-solvers and science lovers eager to bring their knowledge to bear on the world. Today, MIT has evolved into an educational behemoth, with some 1,000 faculty members and more than 11,000 undergraduate and graduate students.\u00a0\nMIT is an independent, coeducational, privately endowed university organized into five schools (architecture and planning; engineering; humanities, arts, and social sciences; management; science) and one college (computing). Yet the principle of educational innovation remains at the core of MIT\u2019s educational philosophy.\u00a0\nMIT researchers are at the forefront of developments in artificial intelligence, climate adaptation, HIV, cancer, and poverty alleviation, while in the past MIT research has fuelled scientific breakthroughs such as the development of radar, the invention of magnetic core memory and the concept of the expanding universe.\u00a0\nScience and technology are not the only strings to MIT\u2019s bow, however. Approximately 20 percent of MIT undergraduates join a sports team, and with 33 varsity sports MIT boasts one of the broadest intercollegiate athletic programs in the world.\u00a0\nA vibrant arts culture also permeates college life. There are 12 museums and galleries on campus, with the MIT Museum drawing nearly 125,000 visitors each year. Students participate in more than 60 music, theatre, writing and dance groups, and faculty members of MIT even include Pulitzer Prize winners and Guggenheim fellows.\nMIT is set in 168 acres of grounds that extend for more than a mile along the Cambridge side of the Charles River basin. The campus features stunning landmarks designed by the likes of architects Alvar Aalto, Frank Gehry, and Steven Hollin, as well as buildings in a range of architectural styles, from neoclassical to modernist and brutalist.\u00a0\nAt its edges, the campus merges with various Cambridge neighborhoods, including Kendall Square which is one of the most innovative square miles on the planet. The close association of industry and research has helped MIT alumni go on to launch more than 30,000 active companies, creating 4.6 million jobs and generating roughly $1.9 trillion in annual revenue. No wonder then that a nation of MIT graduates would be equivalent to the 10th-largest economy in the world.\n\n",
         "Courses":[
             "Others"
+        ],
+        "Cost":[
+            {
+                "Accommodation":"$16,590",
+                "Food":"$4,180",
+                "Transport":"$1,070",
+                "Utilities":"$2,930"
+            }
         ]
     },
     {
@@ -27,6 +35,14 @@
             "Part-Time MBA",
             "Business and Management",
             "Life Sciences and Medicine"
+        ],
+        "Cost":[
+            {
+                "Accommodation":"$16,670",
+                "Food":"$3,330",
+                "Transport":"$2,870",
+                "Utilities":"$5,480"
+            }
         ]
     },
     {
@@ -38,6 +54,14 @@
             "Life Sciences and Medicine",
             "Natural Sciences",
             "Social Sciences and Management"
+        ],
+        "Cost":[
+            {
+                "Accommodation":"",
+                "Food":"",
+                "Transport":"",
+                "Utilities":""
+            }
         ]
     },
     {
@@ -65,6 +89,14 @@
             "Life Sciences and Medicine",
             "Natural Sciences",
             "Social Sciences and Management"
+        ],
+        "Cost":[
+            {
+                "Accommodation":"$12,080",
+                "Food":"$2,980",
+                "Transport":"$910",
+                "Utilities":"$4,930"
+            }
         ]
     },
     {
@@ -79,6 +111,14 @@
             "Life Sciences and Medicine",
             "Natural Sciences",
             "Social Sciences and Management"
+        ],
+        "Cost":[
+            {
+                "Accommodation":"$16,590",
+                "Food":"$4,180",
+                "Transport":"$1,070",
+                "Utilities":"$2,930"
+            }
         ]
     },
     {
@@ -106,6 +146,14 @@
             "Life Sciences and Medicine",
             "Natural Sciences",
             "Social Sciences and Management"
+        ],
+        "Cost":[
+            {
+                "Accommodation":"$10,700",
+                "Food":"$3,030",
+                "Transport":"$970",
+                "Utilities":"$4,430"
+            }
         ]
     },
     {
@@ -114,6 +162,14 @@
         "DESC":"\nAbout ETH Zurich\n\nETH Zurich is one of the world's leading universities in science and technology and is known for its cutting-edge research and innovation. It was established in 1855 as the Swiss Federal Polytechnic School, and a century and a half later the university can count 22 Nobel laureates, 2 Fields Medalists, 3 Pritzker Prize winners, and 1 Turing Award winner as alumni, including the great Albert Einstein himself.The university, officially called the Swiss Federal Institute of Technology Zurich in English, has 16 departments that offer academic education and conduct scientific research in subjects ranging from engineering and architecture to chemistry and physics.Education at ETH Zurich combines solid theory with practical application, and most degree programs build on strong mathematical foundations. For undergraduates the main teaching language is German, while most master's programs and doctoral studies are in English.Located in Zurich, Switzerland's largest city, ETH Zurich has two main locations: in downtown Zurich and on a modern campus built on a hill in the outskirts of the town. Students at ETH face an intensive workload, but they can still find time for cultural and other leisure activities and for attending the many regular symposia and conferences on campus, where some of the best minds in science come to speak.ETH students like to exercise their bodies as well as their minds, and there is a wealth of various sports on offer on campus. The largest annual event is the SOLA relay race , taking place in 14 sections over a total distance of 140 kilometers. More than 900 teams have been known to take part at once in the annual spectacle.Since the 1880s, students have also been able to show off their best moves at the Polyball, a classic ball event, featuring live music by several orchestras and bands. Every November, 10,000 dancers, music-lovers and partygoers descend on ETH\u2019s extensively decorated main building for what is usually an unforgettable night.\n\n",
         "Courses":[
 
+        ],
+        "Cost":[
+            {
+                "Accommodation":"$16,440",
+                "Food":"$7,810",
+                "Transport":"$1,390",
+                "Utilities":"$4,750"
+            }
         ]
     },
     {
@@ -141,6 +197,14 @@
             "Life Sciences and Medicine",
             "Natural Sciences",
             "Social Sciences and Management"
+        ],
+        "Cost":[
+            {
+                "Accommodation":"$19,580",
+                "Food":"$4,020",
+                "Transport":"$1,040",
+                "Utilities":"$2,580"
+            }
         ]
     },
     {
@@ -188,6 +252,14 @@
             "UCL Faculty of Medical Sciences",
             "UCL Faculty of Population Health Sciences",
             "UCL Faculty of Social and Historical Sciences"
+        ],
+        "Cost":[
+            {
+                "Accommodation":"$16,670",
+                "Food":"$3,330",
+                "Transport":"$2,870",
+                "Utilities":"$5,480"
+            }
         ]
     },
     {
@@ -196,6 +268,14 @@
         "DESC":"\nAbout California Institute of Technology (Caltech)\n\nThe California Institute of Technology (Caltech) is a world-renowned science and engineering research and education institution, located in Pasadena, California, around 11 miles northeast of downtown Los Angeles.\u00a0Caltech has a high research output as well as many high-quality facilities such as the Jet Propulsion Laboratory (owned by NASA), the Caltech Seismological Laboratory, and the International Observatory Network.\u00a0 It\u2019s among a small group of institutes of technology in the United States primarily devoted to teaching technical arts and applied sciences, and its fiercely competitive admissions process ensures only a small number of the most gifted students are admitted.The university was founded as a preparatory and vocational school by Amos G. Throop in 1891, with the mission \u201cto expand human knowledge and benefit society through research integrated with education\u201d. It became a major hub of US scientific research in the early 20th century and was instrumental to the United States\u2019 war effort during World War II.\u00a0Today, it is home to the Einstein Papers Project, an initiative seeking to preserve, translate and publish selected papers from the estate of Albert Einstein. It has also established an energy innovation hub that aims to discovery revolutionary methods of generating fuels directly from sunlight.\u00a0Caltech\u2019s 124-acre campus is within walking distance of Old Town Pasadena and the Pasadena Playhouse District, and the two locations are frequent getaways for students. Life on campus is rich with social activities, clubs, associations and recreational facilities. Intercollegiate sport is taken very seriously, with the Caltech Beavers (the beaver \u2013 nature\u2019s engineer \u2013 is the college\u2019s mascot) competing in 13 intercollegiate sports.\u00a0Caltech also offers excellent opportunities for the study and performance of music, theater, and the visual arts, all activities that play a vital role in realizing Caltech\u2019s mission to role in realizing the Institute's mission of \"educating outstanding students to become creative members of society\". Providing a touch of grandeur, the Athenaeum is a stately building in the center of the campus where members can go for formal and informal dining, meetings, rendezvous and private parties.\u00a0The balance at Caltech between a rigorous academic curriculum and activities that promote personal development ensures time spent there for students is both formative and an invaluable staging post to a successful career.\u00a0 Although it may lack the reputation of Ivy League universities or the likes of Oxford and Cambridge, Caltech is undoubtedly one of the best universities in the world, a fact reflected in all the university rankings, which regularly single out technology and engineering as the school\u2019s key academic strengths.\u00a0\n\n",
         "Courses":[
 
+        ],
+        "Cost":[
+            {
+                "Accommodation":"",
+                "Food":"",
+                "Transport":"",
+                "Utilities":""
+            }
         ]
     },
     {
@@ -220,6 +300,14 @@
             "Business and Management",
             "Life Sciences and Medicine",
             "Social Sciences and Management"
+        ],
+        "Cost":[
+            {
+                "Accommodation":"$14,210",
+                "Food":"$4,490",
+                "Transport":"$780",
+                "Utilities":"$3,400"
+            }
         ]
     },
     {
@@ -248,6 +336,14 @@
             "Life Sciences and Medicine",
             "Natural Sciences",
             "Social Sciences and Management"
+        ],
+        "Cost":[
+            {
+                "Accommodation":"$19,580",
+                "Food":"$4,020",
+                "Transport":"$1,040",
+                "Utilities":"$2,580"
+            }
         ]
     },
     {
@@ -270,6 +366,14 @@
             "Business and Management",
             "Life Sciences and Medicine",
             "Social Sciences and Management"
+        ],
+        "Cost":[
+            {
+                "Accommodation":"$13,920",
+                "Food":"$5,160",
+                "Transport":"$1,070",
+                "Utilities":"$3,160"
+            }
         ]
     },
     {
@@ -279,6 +383,14 @@
         "Courses":[
             "Business and Management",
             "Business and Management"
+        ],
+        "Cost":[
+            {
+                "Accommodation":"$5,500",
+                "Food":"$2,070",
+                "Transport":"$360",
+                "Utilities":"$970"
+            }
         ]
     },
     {
@@ -295,6 +407,14 @@
             "Social Sciences and Management",
             "Executive MBA",
             "Social Sciences and Management"
+        ],
+        "Cost":[
+            {
+                "Accommodation":"$11,440",
+                "Food":"$4,790",
+                "Transport":"$1,160",
+                "Utilities":"$3,670"
+            }
         ]
     },
     {
@@ -321,6 +441,14 @@
             "Life Sciences and Medicine",
             "Natural Sciences",
             "Social Sciences and Management"
+        ],
+        "Cost":[
+            {
+                "Accommodation":"$9,160",
+                "Food":"$4,180",
+                "Transport":"$840",
+                "Utilities":"$3,640"
+            }
         ]
     },
     {
@@ -329,6 +457,14 @@
         "DESC":"\nAbout Tsinghua University\n\nStudents looking for great engineering and computer science programs need look no further than Tsinghua University in Beijing, which since 2015 has been ranked as one of the best in the world for both disciplines.\u00a0\nTsinghua University was established in 1911 in the wake of the anti-colonialist Boxer Rebellion, which saw the US fine China $30m as punishment. In 1909, President Theodore Roosevelt negotiated with Congress a reduction in the sum, with the leftover money earmarked for university scholarships for Chinese students to study in the US. Tsinghua University was established as a preparatory school for the students\u2019 trips abroad.\u00a0\nToday, Tsinghua\u2019s motto of \u201cself-discipline and excellence\u201d has taken it far. Most university rankings place Tsinghua among the best universities in China, and famous alumni include President Xi Jinping himself, who graduated with a degree in chemical engineering in 1979. Tony Blair, Henry Kissinger, and Bill Clinton are among the distinguished guests who have spoken at Tsinghua.\u00a0\nThe university is academically organized into 20 schools and 57 departments covering a broad range of subjects, including science, engineering, arts and literature, social sciences, medicine. Xinya College was established in 2014 as the school\u2019s residential liberal arts college as part of a series of reforms to undergraduate education. Unlike other Tsinghua students who must choose a specific major upon enrollment, Xinya students can declare their majors at the end of their freshman year.\nThe campus of Tsinghua University is located in northwest Beijing, in the Haidian district, on the former site of the Qing Dynasty royal gardens. As such it retains Chinese-style landscaping as well as traditional buildings, although many of its buildings are also western in style, reflecting its American heritage. Like its archrival Peking, Tsinghua is known for having one of the most beautiful university campuses.\u00a0\nOn campus, students keep themselves occupied with more than just academic study (although the heavy workloads mean studying is always a priority). There are more than 110 student clubs and associations covering interests such as science and technology, health and fitness, humanities, arts and public welfare.\u00a0\nOverseas students are particularly encouraged to join in the fun, with a host of extracurricular such as welcome parties, New Year\u2019s parties, graduation parties, and visits to cultural and historical landmarks.\u00a0\n\u00a0\n\n",
         "Courses":[
 
+        ],
+        "Cost":[
+            {
+                "Accommodation":"$5,500",
+                "Food":"$2,070",
+                "Transport":"$360",
+                "Utilities":"$970"
+            }
         ]
     },
     {
@@ -341,6 +477,14 @@
             "Full-Time MBA",
             "Online\/Distance MBA",
             "Part-Time MBA"
+        ],
+        "Cost":[
+            {
+                "Accommodation":"$17,160",
+                "Food":"$4,470",
+                "Transport":"$1,380",
+                "Utilities":"$3,000"
+            }
         ]
     },
     {
@@ -366,6 +510,14 @@
             "Arts and Humanities",
             "Life Sciences and Medicine",
             "Social Sciences and Management"
+        ],
+        "Cost":[
+            {
+                "Accommodation":"$10,510",
+                "Food":"$3,380",
+                "Transport":"$1,610",
+                "Utilities":"$3,410"
+            }
         ]
     },
     {
@@ -388,6 +540,14 @@
             "Executive MBA",
             "Full-Time MBA",
             "Online\/Distance MBA"
+        ],
+        "Cost":[
+            {
+                "Accommodation":"$13,240",
+                "Food":"$3,690",
+                "Transport":"$1,880",
+                "Utilities":"$3,610"
+            }
         ]
     },
     {
@@ -415,6 +575,14 @@
             "Natural Sciences",
             "Others",
             "Social Sciences and Management"
+        ],
+        "Cost":[
+            {
+                "Accommodation":"$13,600",
+                "Food":"$4,180",
+                "Transport":"$840",
+                "Utilities":"$3,320"
+            }
         ]
     },
     {
@@ -425,6 +593,14 @@
             "Business and Management",
             "Engineering and Technology",
             "Social Sciences and Management"
+        ],
+        "Cost":[
+            {
+                "Accommodation":"$10,840",
+                "Food":"$7,520",
+                "Transport":"$1,430",
+                "Utilities":"$5,630"
+            }
         ]
     },
     {
@@ -435,6 +611,14 @@
             "Business and Management",
             "Business and Management",
             "Others"
+        ],
+        "Cost":[
+            {
+                "Accommodation":"$9,790",
+                "Food":"$3,600",
+                "Transport":"$710",
+                "Utilities":"$4,690"
+            }
         ]
     },
     {
@@ -454,6 +638,14 @@
             "Executive MBA",
             "Full-Time MBA",
             "Online\/Distance MBA"
+        ],
+        "Cost":[
+            {
+                "Accommodation":"$10,870",
+                "Food":"$3,440",
+                "Transport":"$870",
+                "Utilities":"$3,190"
+            }
         ]
     },
     {
@@ -462,6 +654,14 @@
         "DESC":"\nAbout Princeton University\n\nPrinceton is a world-class teaching and research\nuniversity with a profound and distinctive commitment to undergraduate\neducation and service. Through its commitment to ensuring all students can\ngraduate with little or no debt, all students who are accepted can rely on\nPrinceton\u2019s financial aid program to meet their financial need so they can\nattend and thrive at the University. More than ever, Princeton seeks to enroll\nthe most talented students from a broad spectrum of cultural, ethnic and\neconomic backgrounds. Students\u2019 experiences inside and outside the classroom\nprepare them for service, leadership and lifelong learning. Princeton\nemphasizes creativity, innovation and collaboration with a program of liberal\narts in the humanities, arts, social sciences, natural sciences and\nengineering. Princeton\u2019s low student-to-faculty ratio means students are able\nto develop close working relationships with professors, who are leaders in\ntheir fields. We expect every faculty member to teach, and we expect every\nstudent to do original, creative research. Our approximately 5,300\nundergraduate students are part of a vibrant campus community, and students\nstay connected to a Princeton community that spans the globe long after they\nhave graduated. Students are encouraged to explore many academic and\nextracurricular opportunities while taking advantage of the University\u2019s\nextraordinary facilities and resources. We are a community of learning that is\nenriched by the varied experiences and perspectives of and engagement between\nour students, faculty and staff. Classrooms are filled with students and\nfaculty from a wide range of backgrounds from across the country and around the\nworld, and students benefit from the interdisciplinary connections at the core\nof Princeton\u2019s curriculum. We invite you to explore more about what makes\nPrinceton special and contributes to the transformative experience that is a\nPrinceton education. \n\n",
         "Courses":[
 
+        ],
+        "Cost":[
+            {
+                "Accommodation":"",
+                "Food":"",
+                "Transport":"",
+                "Utilities":""
+            }
         ]
     },
     {
@@ -490,6 +690,14 @@
             "Life Sciences and Medicine",
             "Natural Sciences",
             "Social Sciences and Management"
+        ],
+        "Cost":[
+            {
+                "Accommodation":"$13,240",
+                "Food":"$3,690",
+                "Transport":"$1,880",
+                "Utilities":"$3,610"
+            }
         ]
     },
     {
@@ -517,6 +725,14 @@
             "Life Sciences and Medicine",
             "Natural Sciences",
             "Social Sciences and Management"
+        ],
+        "Cost":[
+            {
+                "Accommodation":"$7,750",
+                "Food":"$4,020",
+                "Transport":"$860",
+                "Utilities":"$1,980"
+            }
         ]
     },
     {
@@ -537,6 +753,14 @@
             "Social Sciences and Management",
             "Life Sciences and Medicine",
             "Natural Sciences"
+        ],
+        "Cost":[
+            {
+                "Accommodation":"$8,870",
+                "Food":"$4,660",
+                "Transport":"$1,090",
+                "Utilities":"$3,230"
+            }
         ]
     },
     {
@@ -555,6 +779,14 @@
             "Executive MBA",
             "Full-Time MBA",
             "Others"
+        ],
+        "Cost":[
+            {
+                "Accommodation":"$12,740",
+                "Food":"$3,970",
+                "Transport":"$1,360",
+                "Utilities":"$3,110"
+            }
         ]
     },
     {
@@ -563,6 +795,14 @@
         "DESC":"\nAbout Fudan University\n\nFudan University was established in 1905 as Fudan Public School. It was the first institution of higher education to be founded by a Chinese persona. The name Fudan is composed of two Chinese characters: f\u00f9 (\u201creturn\u201d) and d\u00e0n (\u201cdawn\u201d). They were borrowed from the Confucius classic A Commentary on The Classic of History, of which the part on the Yu and the Xia dynasties mentions: \u201cBrilliant are the sunshine and moonlight, again the morning radiance returns at dawn.\u201d In 2000, a new Fudan University emerged after the merger with Shanghai Medical University.Fudan boasts a total area of approximately 2,500,000 square meters that are divided into 4 campuses: Handan (main campus in Wujiaochang area), Fenglin, Jiangwan and Zhangjiang, housing 35 schools and departments that offer 11 broad subject areas, 5 state-level key\u00a0 laboratories, 29 provincial and ministerial-level laboratories, 17 affiliated hospitals, and libraries that hold more than 5.5 million books and countless digital resources.Fudan is home to approximately 4000 international students from all corners of the globe. Students can choose from diverse forms of extracurricular activities including cultural and hobby sessions organized by student societies (17 of which are mainly constituted by international students), public lectures that invite top industrial leaders and scholars from home and abroad (Nobel winners included), etc.Each undergraduate student spends the first two years on general education, while in the next two or three years students will delve into their areas of interest. Student entrepreneurship receives strong support from the University and its global alumni networks.The motto of Fudan University is scientia et studium, quaestio et cogitatio, which means rich in knowledge and tenacious of purposes, inquiring with earnestness and reflecting with self-practice. The University is highly praised for its time-honored tradition of academic independence and free inquiry.Fudan is a member of the elite C9 League, also known as China\u2019s Ivy league, and a Class A Double First Class University according to a national project to build world-class institutions and disciplines by the end of 2050.\n\n",
         "Courses":[
 
+        ],
+        "Cost":[
+            {
+                "Accommodation":"$5,440",
+                "Food":"$2,420",
+                "Transport":"$470",
+                "Utilities":"$1,180"
+            }
         ]
     }
 ]

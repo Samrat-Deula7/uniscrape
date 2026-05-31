@@ -4,6 +4,7 @@ from fetchUniLinks import LinkFetcher
 from fetchDesc import DescFetcher
 from fetchCourses import CoursesFetcher
 from fetchLogo import LogoFetcher
+from fetchCost import CostFetcher
 import pandas as pd
 
 URL = (
@@ -20,12 +21,14 @@ def main():
     url = []
     desc = []
     courses = []
+    cost = []
 
     data = {
         "Logo" : logo,
         "URL" : url,
         "DESC" : desc,
-        "Courses" : courses
+        "Courses" : courses,
+        "Cost" : cost
     }
 
     try:     
@@ -51,6 +54,12 @@ def main():
 
             LogoData = fetchUniLogo.fetchLogo()
 
+            fetchUniCost = CostFetcher(soup)
+
+            costData = fetchUniCost.fetchCost()
+
+
+
             print("\n")
             print("################ LOGO ###################")
             print(LogoData)
@@ -67,6 +76,10 @@ def main():
             print("############### Courses ##################")
             print(CoursesData)
             courses.insert(i,CoursesData)
+            print("\n")
+            print("############# Cost #################")
+            print(costData)
+            cost.insert(i,costData)
     
     finally:
         df = pd.DataFrame(data)
